@@ -9,10 +9,12 @@
 	"remoteUser": "ros",
 	"runArgs": [
 		"--network=host",
+		"-e DISPLAY=$DISPLAY",
 		"--cap-add=SYS_PTRACE",
 		"--security-opt=seccomp:unconfined",
 		"--security-opt=apparmor:unconfined",
-		"--volume=/tmp/.X11-unix:/tmp/.X11-unix"
+		"--volume=/tmp/.X11-unix:/tmp/.X11-unix",
+		"--device=/dev/dri:/dev/dri",
 	],
 	"containerEnv": { "DISPLAY": "${localEnv:DISPLAY}" },
 	// Set *default* container specific settings.json values on container create.
