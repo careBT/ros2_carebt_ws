@@ -1,3 +1,6 @@
 [submodule "src/navigation2"]
 	path = src/navigation2
 	url = git@github.com:careBT/navigation2.git
+[submodule "src/carebt_ros2"]
+	path = src/carebt_ros2
+	url = git@github.com:careBT/carebt_ros2.git
