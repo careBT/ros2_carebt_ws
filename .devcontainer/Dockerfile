@@ -1,4 +1,4 @@
-FROM althack/ros2:galactic-dev 
+FROM althack/ros2:galactic-gazebo 
 
 # ** [Optional] Uncomment this section to install additional packages. **
 #
