@@ -1,0 +1,3 @@
+[submodule "src/navigation2"]
+	path = src/navigation2
+	url = git@github.com:careBT/navigation2.git
