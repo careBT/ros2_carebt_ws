@@ -4,3 +4,6 @@
 [submodule "src/carebt_ros2"]
 	path = src/carebt_ros2
 	url = git@github.com:careBT/carebt_ros2.git
+[submodule "src/rospy_message_converter"]
+	path = src/rospy_message_converter
+	url = git@github.com:careBT/rospy_message_converter.git
