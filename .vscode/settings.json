@@ -70,5 +70,13 @@
         ".vscode",
         ".vscode-insiders",
         ".devcontainer/devcontainer.json"
-    ]
+    ],
+    "python.testing.pytestArgs": [
+        "src/carebt_ros2/carebt_simple_kb/",
+        //"src/carebt_ros2/carebt_nav2_pyutil/",
+        "-s",
+        "-vv",
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
