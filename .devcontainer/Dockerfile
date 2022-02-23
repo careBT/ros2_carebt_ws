@@ -11,7 +11,7 @@ RUN apt-get update \
    && rm -rf /var/lib/apt/lists/*
 ENV DEBIAN_FRONTEND=dialog
 
-RUN pip3 install carebt
+RUN pip3 install pytest-xdist carebt owlready2
 
 # Set up auto-source of workspace for ros user
 ARG WORKSPACE
