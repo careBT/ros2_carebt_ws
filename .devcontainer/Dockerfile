@@ -4,6 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
    && apt-get -y install --no-install-recommends \
    ros-galactic-turtlebot3* \
+   default-jre \
    #
    # Clean up
    && apt-get autoremove -y \
