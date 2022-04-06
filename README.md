@@ -1,4 +1,4 @@
-# VSCode workspace for ROS2 CareBT
+# VSCode workspace for ROS2 careBT
 
 ## Getting started
 
