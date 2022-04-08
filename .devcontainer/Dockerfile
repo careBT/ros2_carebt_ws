@@ -5,6 +5,9 @@ RUN apt-get update \
    && apt-get -y install --no-install-recommends \
    ros-galactic-turtlebot3* \
    default-jre \
+   python3-sphinx \
+   sphinx-rtd-theme-common \
+   graphviz \
    #
    # Clean up
    && apt-get autoremove -y \
@@ -12,6 +15,7 @@ RUN apt-get update \
    && rm -rf /var/lib/apt/lists/*
 ENV DEBIAN_FRONTEND=dialog
 
+RUN pip install sphinx_rtd_theme
 RUN pip3 install pytest-xdist owlready2 carebt==1.2.2
 
 # Set up auto-source of workspace for ros user
